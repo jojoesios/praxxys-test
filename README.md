@@ -35,15 +35,15 @@ An exam that aims to test the following skills:
 
 ## Usage
 
-    1. Clone/Download a repo.
-    2. Copy .env.example file to .env & Setup your environment variables
-    3. Run composer install
-    4. Generate application key by running 'php artisan key:generate'
-    5. Migrate database by running php artisan migrate
-    6. Seed database by running php db:seed
-    7. Generate pesronal access and password grant tokens by running php artisan passport:install
-    8. Run npm install then npm run dev to load modules and assets
-    9. Run php artisan serve
-    
-    Default Username: admin
-    Default Password: 123456
+1. Clone/Download a repo.
+2. Copy .env.example file to .env & Setup your environment variables
+3. Run composer install
+4. Generate application key by running 'php artisan key:generate'
+5. Migrate database by running php artisan migrate
+6. Seed database by running php db:seed
+7. Generate pesronal access and password grant tokens by running php artisan passport:install
+8. Run npm install then npm run dev to load modules and assets
+9. Run php artisan serve
+
+Default Username: admin
+Default Password: 123456
