@@ -1,63 +1,49 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+## About PRAXXYS Test
+A simple test application made with Laravel as back-end, Vue JS as front-end, and AdminLTE as template.
 
-## About Laravel
+An exam that aims to test the following skills:
+    ● Critical and logical thinking
+    ● Resourcefulness
+    ● Ability to follow instructions
+    ● Identify areas of improvement
+    ● Organization
+    ● Laravel and PHP skills
+    ● Vue and Javascript skills
+    ● Git skills
+    ● UX skills
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## Composer Packages Installed
+    ● "laravel/framework": "^8.40"
+    ● "intervention/image": "^2.6"
+    ● "laravel/passport": "^10.1"
+    ● "laravel/ui": "^3.3"
+    
+## Vue Packages Installed
+    ● "@fortawesome/fontawesome-free": "^5.15.3"
+    ● "admin-lte": "^3.1.0"
+    ● "laravel-vue-pagination": "^2.3.1"
+    ● "sweetalert2": "^11.1.0"
+    ● "vform": "^1.0.1"
+    ● "vue-ctk-date-time-picker": "^2.5.0"
+    ● "vue-moment": "^4.1.0"
+    ● "vue-multiselect": "^2.1.6"
+    ● "vue-router": "^3.5.2"
+    ● "vue-video-player": "^5.0.2"
+    ● "vue2-filters": "^0.13.0"
+    ● "vueditor": "^0.3.1"
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## Usage
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
-
-## Learning Laravel
-
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
-
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
-# praxxys-test
+    1. Clone/Download a repo.
+    2. Copy .env.example file to .env & Setup your environment variables
+    3. Run composer install
+    4. Generate application key by running php artisan key:generate
+    5. Migrate database by running php artisan migrate
+    6. Seed database by running php db:seed
+    7. Generate pesronal access and password grant tokens by running php artisan passport:install
+    8. Run npm install then npm run dev to load modules and assets
+    9. Run php artisan serve
+    
+    Default Username: admin
+    Default Password: 123456
