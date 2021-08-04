@@ -42,8 +42,9 @@ An exam that aims to test the following skills:
 5. Migrate database by running ***php artisan migrate***
 6. Seed database by running ***php artisan db:seed***
 7. Generate pesronal access and password grant tokens by running ***php artisan passport:install***
-8. Run ***npm install*** then ***npm run dev*** to load modules and assets
-9. Run ***php artisan serve***
+8. Run ***php artisan storage:link***
+9. Run ***npm install*** then ***npm run dev*** to load modules and assets
+10. Run ***php artisan serve***
 
 Default Username: admin
 Default Password: 123456
